@@ -1,0 +1,28 @@
+{
+  "name": "@qmoosa/pqc-mlkem-protocol",
+  "version": "1.0.0",
+  "description": "QMOOSA Post-Quantum Cryptography Protocol — NIST FIPS 203 ML-KEM Parameter Sets, Invariants & Cryptographic Specification",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/protocol.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "pqc",
+    "post-quantum",
+    "fips-203",
+    "ml-kem",
+    "kyber",
+    "lattice-cryptography"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
